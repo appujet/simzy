@@ -1,1 +1,95 @@
-# simzy
+# Simzy - Fast String Similarity Library for Node.js
+
+[![CI](https://github.com/appujet/simzy/actions/workflows/CI.yml/badge.svg)](https://github.com/appujet/simzy/actions/workflows/CI.yml)  
+[![npm version](https://badge.fury.io/js/simzy.svg)](https://badge.fury.io/js/simzy)  
+[![GitHub Repo stars](https://img.shields.io/github/stars/appujet/simzy?style=social)](https://github.com/appujet/simzy)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Performance](#performance)
+- [License](#license)
+- [Contributing](#contributing)
+
+## Overview
+
+**Simzy** is a high-performance string similarity library for Node.js, powered by Rust through NAPI bindings. Designed for speed and accuracy, Simzy supports both Unicode and ASCII characters. Whether you're building search engines, fuzzy matchers, or duplicate detectors, Simzy delivers precise similarity calculations without sacrificing ease of use.
+
+## Features
+
+- **Levenshtein Distance**  
+  Calculate the minimum number of edits (insertions, deletions, or substitutions) required to transform one string into another, with full Unicode support.
+
+- **Jaro-Winkler Similarity**  
+  Detect typos and perform fuzzy matching by measuring similarity based on common prefixes and transpositions.
+
+- **Best Match Finder**  
+  Quickly identify the closest match from a list of candidates, complete with confidence filtering to dismiss weak matches.
+
+## Installation
+
+Install Simzy using your preferred package manager:
+
+```bash
+npm install simzy
+# or
+yarn add simzy
+# or
+pnpm add simzy
+```
+
+## Usage
+
+Simzy is built to be intuitive and simple to integrate into your projects.
+
+### Calculating String Similarity
+
+```javascript
+import { stringSimilarity, SimilarityAlgorithm } from 'simzy';
+
+const score = stringSimilarity('hello', 'helo', SimilarityAlgorithm.JaroWinkler);
+console.log(`Similarity Score: ${score}`); // Example output: 0.96
+```
+
+### Computing Levenshtein Distance
+
+```javascript
+import { levenshteinDistance } from 'simzy';
+
+const distance = levenshteinDistance('kitten', 'sitting');
+console.log(`Levenshtein Distance: ${distance}`); // Example output: 3
+```
+
+### Finding the Best Match
+
+```javascript
+import { findBestMatch } from 'simzy';
+
+const result = findBestMatch('apple', ['apples', 'aple', 'apple']);
+console.log(`Best match: ${result.best_match.string}`);
+console.log(`Score: ${result.best_match.score}`);
+```
+
+## Testing
+
+Simzy comes with a comprehensive suite of tests using AVA to ensure reliability and performance. Run the tests with:
+
+```bash
+npm test
+```
+
+## Performance
+
+Powered by Rust, Simzy outperforms traditional JavaScript implementations for string similarity tasks. Whether you're comparing short strings or processing large volumes of text, Simzy delivers the speed and accuracy your application needs.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! If you have ideas for improvements, encounter bugs, or want to help optimize performance, please open an issue or submit a pull request. Together, we can make Simzy even better.
