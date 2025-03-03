@@ -1,3 +1,3 @@
-# `simzy-android-arm64`
+# `similix-android-arm64`
 
-This is the **aarch64-linux-android** binary for `simzy`
+This is the **aarch64-linux-android** binary for `similix`

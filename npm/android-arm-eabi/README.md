@@ -1,3 +1,3 @@
-# `simzy-android-arm-eabi`
+# `similix-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for `simzy`
+This is the **armv7-linux-androideabi** binary for `similix`

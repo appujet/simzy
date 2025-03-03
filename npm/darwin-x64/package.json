@@ -1,5 +1,5 @@
 {
-  "name": "simzy-darwin-x64",
+  "name": "similix-darwin-x64",
   "version": "0.0.1",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "simzy.darwin-x64.node",
+  "main": "similix.darwin-x64.node",
   "files": [
-    "simzy.darwin-x64.node"
+    "similix.darwin-x64.node"
   ],
   "license": "MIT",
   "engines": {
@@ -19,5 +19,5 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/appujet/simzy"
+  "repository": "https://github.com/appujet/similix"
 }

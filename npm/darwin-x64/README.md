@@ -1,3 +1,3 @@
-# `simzy-darwin-x64`
+# `similix-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `simzy`
+This is the **x86_64-apple-darwin** binary for `similix`

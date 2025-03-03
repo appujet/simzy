@@ -1,12 +1,12 @@
 {
-  "name": "simzy-darwin-universal",
+  "name": "similix-darwin-universal",
   "version": "0.0.1",
   "os": [
     "darwin"
   ],
-  "main": "simzy.darwin-universal.node",
+  "main": "similix.darwin-universal.node",
   "files": [
-    "simzy.darwin-universal.node"
+    "similix.darwin-universal.node"
   ],
   "license": "MIT",
   "engines": {
@@ -16,5 +16,5 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/appujet/simzy"
+  "repository": "https://github.com/appujet/similix"
 }

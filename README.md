@@ -1,8 +1,8 @@
 # Simzy - Fast String Similarity Library for Node.js
 
-[![CI](https://github.com/appujet/simzy/actions/workflows/CI.yml/badge.svg)](https://github.com/appujet/simzy/actions/workflows/CI.yml)  
-[![npm version](https://badge.fury.io/js/simzy.svg)](https://badge.fury.io/js/simzy)  
-[![GitHub Repo stars](https://img.shields.io/github/stars/appujet/simzy?style=social)](https://github.com/appujet/simzy)
+[![CI](https://github.com/appujet/similix/actions/workflows/CI.yml/badge.svg)](https://github.com/appujet/similix/actions/workflows/CI.yml)  
+[![npm version](https://badge.fury.io/js/similix.svg)](https://badge.fury.io/js/similix)  
+[![GitHub Repo stars](https://img.shields.io/github/stars/appujet/similix?style=social)](https://github.com/appujet/similix)
 
 ## Table of Contents
 
@@ -35,11 +35,11 @@
 Install Simzy using your preferred package manager:
 
 ```bash
-npm install simzy
+npm install similix
 # or
-yarn add simzy
+yarn add similix
 # or
-pnpm add simzy
+pnpm add similix
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ Simzy is built to be intuitive and simple to integrate into your projects.
 ### Calculating String Similarity
 
 ```javascript
-import { stringSimilarity, SimilarityAlgorithm } from 'simzy';
+import { stringSimilarity, SimilarityAlgorithm } from 'similix';
 
 const score = stringSimilarity('hello', 'helo', SimilarityAlgorithm.JaroWinkler);
 console.log(`Similarity Score: ${score}`); // Example output: 0.96
@@ -58,7 +58,7 @@ console.log(`Similarity Score: ${score}`); // Example output: 0.96
 ### Computing Levenshtein Distance
 
 ```javascript
-import { levenshteinDistance } from 'simzy';
+import { levenshteinDistance } from 'similix';
 
 const distance = levenshteinDistance('kitten', 'sitting');
 console.log(`Levenshtein Distance: ${distance}`); // Example output: 3
@@ -67,7 +67,7 @@ console.log(`Levenshtein Distance: ${distance}`); // Example output: 3
 ### Finding the Best Match
 
 ```javascript
-import { findBestMatch } from 'simzy';
+import { findBestMatch } from 'similix';
 
 const result = findBestMatch('apple', ['apples', 'aple', 'apple']);
 console.log(`Best match: ${result.best_match.string}`);

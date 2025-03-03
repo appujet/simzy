@@ -1,10 +1,10 @@
 {
-  "name": "simzy",
+  "name": "similix",
   "version": "0.0.1",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "simzy",
+    "name": "similix",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",
@@ -21,11 +21,11 @@
     }
   },
   "license": "MIT",
-  "repository": "https://github.com/appujet/simzy",
+  "repository": "https://github.com/appujet/similix",
   "author": "appujet",
   "description": "Fast String Similarity Library for Node.js",
   "keywords": [
-    "simzy",
+    "similix",
     "string",
     "similarity",
     "fuzzy",

@@ -1,3 +1,3 @@
-# `simzy-linux-arm64-gnu`
+# `similix-linux-arm64-gnu`
 
-This is the **aarch64-unknown-linux-gnu** binary for `simzy`
+This is the **aarch64-unknown-linux-gnu** binary for `similix`

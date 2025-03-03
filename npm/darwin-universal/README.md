@@ -1,3 +1,3 @@
-# `simzy-darwin-universal`
+# `similix-darwin-universal`
 
-This is the **universal-apple-darwin** binary for `simzy`
+This is the **universal-apple-darwin** binary for `similix`

@@ -1,5 +1,5 @@
 {
-  "name": "simzy-linux-arm64-gnu",
+  "name": "similix-linux-arm64-gnu",
   "version": "0.0.1",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "simzy.linux-arm64-gnu.node",
+  "main": "similix.linux-arm64-gnu.node",
   "files": [
-    "simzy.linux-arm64-gnu.node"
+    "similix.linux-arm64-gnu.node"
   ],
   "license": "MIT",
   "engines": {
@@ -19,7 +19,7 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/appujet/simzy",
+  "repository": "https://github.com/appujet/similix",
   "libc": [
     "glibc"
   ]

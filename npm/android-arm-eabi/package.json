@@ -1,5 +1,5 @@
 {
-  "name": "simzy-android-arm-eabi",
+  "name": "similix-android-arm-eabi",
   "version": "0.0.1",
   "os": [
     "android"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm"
   ],
-  "main": "simzy.android-arm-eabi.node",
+  "main": "similix.android-arm-eabi.node",
   "files": [
-    "simzy.android-arm-eabi.node"
+    "similix.android-arm-eabi.node"
   ],
   "license": "MIT",
   "engines": {
@@ -19,5 +19,5 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/appujet/simzy"
+  "repository": "https://github.com/appujet/similix"
 }

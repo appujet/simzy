@@ -1,3 +1,3 @@
-# `simzy-linux-x64-musl`
+# `similix-linux-x64-musl`
 
-This is the **x86_64-unknown-linux-musl** binary for `simzy`
+This is the **x86_64-unknown-linux-musl** binary for `similix`
