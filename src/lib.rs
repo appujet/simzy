@@ -4,6 +4,7 @@ use strsim::{jaro_winkler, levenshtein};
 use deunicode::deunicode;
 
 
+
 fn normalize(s: &str) -> String {
   deunicode(s).to_lowercase()
 }

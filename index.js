@@ -116,7 +116,7 @@ switch (platform) {
         nativeBinding = require('similix-darwin-universal')
       }
       break
-    } catch { }
+    } catch {}
     switch (arch) {
       case 'x64':
         localFileExisted = existsSync(join(__dirname, 'similix.darwin-x64.node'))
