@@ -1,4 +1,4 @@
-# Simzy - Fast String Similarity Library for Node.js
+# string-proximity. - Fast String Similarity Library for Node.js
 
 [![CI](https://github.com/appujet/string-proximity/actions/workflows/CI.yml/badge.svg)](https://github.com/appujet/string-proximity/actions/workflows/CI.yml)  
 [![npm version](https://badge.fury.io/js/string-proximity.svg)](https://badge.fury.io/js/string-proximity)  
@@ -17,7 +17,7 @@
 
 ## Overview
 
-**Simzy** is a high-performance string similarity library for Node.js, powered by Rust through NAPI bindings. Designed for speed and accuracy, Simzy supports both Unicode and ASCII characters. Whether you're building search engines, fuzzy matchers, or duplicate detectors, Simzy delivers precise similarity calculations without sacrificing ease of use.
+**string-proximity.** is a high-performance string similarity library for Node.js, powered by Rust through NAPI bindings. Designed for speed and accuracy, string-proximity. supports both Unicode and ASCII characters. Whether you're building search engines, fuzzy matchers, or duplicate detectors, string-proximity. delivers precise similarity calculations without sacrificing ease of use.
 
 ## Features
 
@@ -32,7 +32,7 @@
 
 ## Installation
 
-Install Simzy using your preferred package manager:
+Install string-proximity. using your preferred package manager:
 
 ```bash
 npm install string-proximity
@@ -44,7 +44,7 @@ pnpm add string-proximity
 
 ## Usage
 
-Simzy is built to be intuitive and simple to integrate into your projects.
+string-proximity. is built to be intuitive and simple to integrate into your projects.
 
 ### Calculating String Similarity
 
@@ -76,7 +76,7 @@ console.log(`Score: ${result.best_match.score}`);
 
 ## Testing
 
-Simzy comes with a comprehensive suite of tests using AVA to ensure reliability and performance. Run the tests with:
+string-proximity. comes with a comprehensive suite of tests using AVA to ensure reliability and performance. Run the tests with:
 
 ```bash
 npm test
@@ -84,7 +84,7 @@ npm test
 
 ## Performance
 
-Powered by Rust, Simzy outperforms traditional JavaScript implementations for string similarity tasks. Whether you're comparing short strings or processing large volumes of text, Simzy delivers the speed and accuracy your application needs.
+Powered by Rust, string-proximity. outperforms traditional JavaScript implementations for string similarity tasks. Whether you're comparing short strings or processing large volumes of text, string-proximity. delivers the speed and accuracy your application needs.
 
 ## License
 
@@ -92,4 +92,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contributing
 
-Contributions are welcome! If you have ideas for improvements, encounter bugs, or want to help optimize performance, please open an issue or submit a pull request. Together, we can make Simzy even better.
+Contributions are welcome! If you have ideas for improvements, encounter bugs, or want to help optimize performance, please open an issue or submit a pull request. Together, we can make string-proximity. even better.
