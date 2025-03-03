@@ -1,0 +1,20 @@
+{
+  "name": "simzy-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "simzy.darwin-universal.node",
+  "files": [
+    "simzy.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": "https://github.com/appujet/simzy"
+}
