@@ -1,3 +1,3 @@
-# `similix-android-arm64`
+# `string-proximity-android-arm64`
 
-This is the **aarch64-linux-android** binary for `similix`
+This is the **aarch64-linux-android** binary for `string-proximity`

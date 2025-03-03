@@ -1,3 +1,3 @@
-# `similix-linux-riscv64-gnu`
+# `string-proximity-linux-riscv64-gnu`
 
-This is the **riscv64gc-unknown-linux-gnu** binary for `similix`
+This is the **riscv64gc-unknown-linux-gnu** binary for `string-proximity`

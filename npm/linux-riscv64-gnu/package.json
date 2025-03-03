@@ -1,5 +1,5 @@
 {
-  "name": "similix-linux-riscv64-gnu",
+  "name": "string-proximity-linux-riscv64-gnu",
   "version": "0.0.1",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "riscv64"
   ],
-  "main": "similix.linux-riscv64-gnu.node",
+  "main": "string-proximity.linux-riscv64-gnu.node",
   "files": [
-    "similix.linux-riscv64-gnu.node"
+    "string-proximity.linux-riscv64-gnu.node"
   ],
   "license": "MIT",
   "engines": {
@@ -19,7 +19,7 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/appujet/similix",
+  "repository": "https://github.com/appujet/string-proximity",
   "libc": [
     "glibc"
   ]

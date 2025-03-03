@@ -1,5 +1,5 @@
 {
-  "name": "similix-android-arm-eabi",
+  "name": "string-proximity-android-arm-eabi",
   "version": "0.0.1",
   "os": [
     "android"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm"
   ],
-  "main": "similix.android-arm-eabi.node",
+  "main": "string-proximity.android-arm-eabi.node",
   "files": [
-    "similix.android-arm-eabi.node"
+    "string-proximity.android-arm-eabi.node"
   ],
   "license": "MIT",
   "engines": {
@@ -19,5 +19,5 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/appujet/similix"
+  "repository": "https://github.com/appujet/string-proximity"
 }

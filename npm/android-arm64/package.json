@@ -1,5 +1,5 @@
 {
-  "name": "similix-android-arm64",
+  "name": "string-proximity-android-arm64",
   "version": "0.0.1",
   "os": [
     "android"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "similix.android-arm64.node",
+  "main": "string-proximity.android-arm64.node",
   "files": [
-    "similix.android-arm64.node"
+    "string-proximity.android-arm64.node"
   ],
   "license": "MIT",
   "engines": {
@@ -19,5 +19,5 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/appujet/similix"
+  "repository": "https://github.com/appujet/string-proximity"
 }

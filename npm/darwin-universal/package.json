@@ -1,12 +1,12 @@
 {
-  "name": "similix-darwin-universal",
+  "name": "string-proximity-darwin-universal",
   "version": "0.0.1",
   "os": [
     "darwin"
   ],
-  "main": "similix.darwin-universal.node",
+  "main": "string-proximity.darwin-universal.node",
   "files": [
-    "similix.darwin-universal.node"
+    "string-proximity.darwin-universal.node"
   ],
   "license": "MIT",
   "engines": {
@@ -16,5 +16,5 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/appujet/similix"
+  "repository": "https://github.com/appujet/string-proximity"
 }

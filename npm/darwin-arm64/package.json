@@ -1,5 +1,5 @@
 {
-  "name": "similix-darwin-arm64",
+  "name": "string-proximity-darwin-arm64",
   "version": "0.0.1",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "similix.darwin-arm64.node",
+  "main": "string-proximity.darwin-arm64.node",
   "files": [
-    "similix.darwin-arm64.node"
+    "string-proximity.darwin-arm64.node"
   ],
   "license": "MIT",
   "engines": {
@@ -19,5 +19,5 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/appujet/similix"
+  "repository": "https://github.com/appujet/string-proximity"
 }

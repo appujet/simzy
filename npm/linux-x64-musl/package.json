@@ -1,5 +1,5 @@
 {
-  "name": "similix-linux-x64-musl",
+  "name": "string-proximity-linux-x64-musl",
   "version": "0.0.1",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "similix.linux-x64-musl.node",
+  "main": "string-proximity.linux-x64-musl.node",
   "files": [
-    "similix.linux-x64-musl.node"
+    "string-proximity.linux-x64-musl.node"
   ],
   "license": "MIT",
   "engines": {
@@ -19,7 +19,7 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/appujet/similix",
+  "repository": "https://github.com/appujet/string-proximity",
   "libc": [
     "musl"
   ]

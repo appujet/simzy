@@ -1,3 +1,3 @@
-# `similix-darwin-x64`
+# `string-proximity-darwin-x64`
 
-This is the **x86_64-apple-darwin** binary for `similix`
+This is the **x86_64-apple-darwin** binary for `string-proximity`

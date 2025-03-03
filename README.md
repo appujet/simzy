@@ -1,8 +1,8 @@
 # Simzy - Fast String Similarity Library for Node.js
 
-[![CI](https://github.com/appujet/similix/actions/workflows/CI.yml/badge.svg)](https://github.com/appujet/similix/actions/workflows/CI.yml)  
-[![npm version](https://badge.fury.io/js/similix.svg)](https://badge.fury.io/js/similix)  
-[![GitHub Repo stars](https://img.shields.io/github/stars/appujet/similix?style=social)](https://github.com/appujet/similix)
+[![CI](https://github.com/appujet/string-proximity/actions/workflows/CI.yml/badge.svg)](https://github.com/appujet/string-proximity/actions/workflows/CI.yml)  
+[![npm version](https://badge.fury.io/js/string-proximity.svg)](https://badge.fury.io/js/string-proximity)  
+[![GitHub Repo stars](https://img.shields.io/github/stars/appujet/string-proximity?style=social)](https://github.com/appujet/string-proximity)
 
 ## Table of Contents
 
@@ -35,11 +35,11 @@
 Install Simzy using your preferred package manager:
 
 ```bash
-npm install similix
+npm install string-proximity
 # or
-yarn add similix
+yarn add string-proximity
 # or
-pnpm add similix
+pnpm add string-proximity
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ Simzy is built to be intuitive and simple to integrate into your projects.
 ### Calculating String Similarity
 
 ```javascript
-import { stringSimilarity, SimilarityAlgorithm } from 'similix';
+import { stringSimilarity, SimilarityAlgorithm } from 'string-proximity';
 
 const score = stringSimilarity('hello', 'helo', SimilarityAlgorithm.JaroWinkler);
 console.log(`Similarity Score: ${score}`); // Example output: 0.96
@@ -58,7 +58,7 @@ console.log(`Similarity Score: ${score}`); // Example output: 0.96
 ### Computing Levenshtein Distance
 
 ```javascript
-import { levenshteinDistance } from 'similix';
+import { levenshteinDistance } from 'string-proximity';
 
 const distance = levenshteinDistance('kitten', 'sitting');
 console.log(`Levenshtein Distance: ${distance}`); // Example output: 3
@@ -67,7 +67,7 @@ console.log(`Levenshtein Distance: ${distance}`); // Example output: 3
 ### Finding the Best Match
 
 ```javascript
-import { findBestMatch } from 'similix';
+import { findBestMatch } from 'string-proximity';
 
 const result = findBestMatch('apple', ['apples', 'aple', 'apple']);
 console.log(`Best match: ${result.best_match.string}`);

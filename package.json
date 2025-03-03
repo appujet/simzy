@@ -1,10 +1,10 @@
 {
-  "name": "similix",
+  "name": "string-proximity",
   "version": "0.0.1",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
-    "name": "similix",
+    "name": "string-proximity",
     "triples": {
       "additional": [
         "aarch64-apple-darwin",
@@ -21,11 +21,11 @@
     }
   },
   "license": "MIT",
-  "repository": "https://github.com/appujet/similix",
+  "repository": "https://github.com/appujet/string-proximity",
   "author": "appujet",
   "description": "Fast String Similarity Library for Node.js",
   "keywords": [
-    "similix",
+    "string-proximity",
     "string",
     "similarity",
     "fuzzy",

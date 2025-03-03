@@ -1,3 +1,3 @@
-# `similix-win32-ia32-msvc`
+# `string-proximity-win32-ia32-msvc`
 
-This is the **i686-pc-windows-msvc** binary for `similix`
+This is the **i686-pc-windows-msvc** binary for `string-proximity`

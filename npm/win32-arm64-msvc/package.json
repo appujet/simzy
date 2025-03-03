@@ -1,5 +1,5 @@
 {
-  "name": "similix-win32-arm64-msvc",
+  "name": "string-proximity-win32-arm64-msvc",
   "version": "0.0.1",
   "os": [
     "win32"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "similix.win32-arm64-msvc.node",
+  "main": "string-proximity.win32-arm64-msvc.node",
   "files": [
-    "similix.win32-arm64-msvc.node"
+    "string-proximity.win32-arm64-msvc.node"
   ],
   "license": "MIT",
   "engines": {
@@ -19,5 +19,5 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "https://github.com/appujet/similix"
+  "repository": "https://github.com/appujet/string-proximity"
 }

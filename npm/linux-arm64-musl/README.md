@@ -1,3 +1,3 @@
-# `similix-linux-arm64-musl`
+# `string-proximity-linux-arm64-musl`
 
-This is the **aarch64-unknown-linux-musl** binary for `similix`
+This is the **aarch64-unknown-linux-musl** binary for `string-proximity`
