@@ -1,8 +1,8 @@
 # string-proximity. - Fast String Similarity Library for Node.js
 
-[![CI](https://github.com/appujet/string-proximity/actions/workflows/CI.yml/badge.svg)](https://github.com/appujet/string-proximity/actions/workflows/CI.yml)  
+[![CI](-https://github.com/Mintone-creators/string-proximity/actions/workflows/CI.yml/badge.svg)](-https://github.com/Mintone-creators/string-proximity/actions/workflows/CI.yml)  
 [![npm version](https://badge.fury.io/js/string-proximity.svg)](https://badge.fury.io/js/string-proximity)  
-[![GitHub Repo stars](https://img.shields.io/github/stars/appujet/string-proximity?style=social)](https://github.com/appujet/string-proximity)
+[![GitHub Repo stars](https://img.shields.io/github/stars/appujet/string-proximity?style=social)](-https://github.com/Mintone-creators/string-proximity)
 
 ## Table of Contents
 
