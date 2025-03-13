@@ -1,6 +1,6 @@
 {
   "name": "string-proximity-darwin-universal",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "os": [
     "darwin"
   ],
@@ -16,5 +16,8 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "-https://github.com/appujet/string-proximity"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appujet/string-proximity"
+  }
 }
