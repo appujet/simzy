@@ -1,6 +1,6 @@
 {
   "name": "string-proximity-linux-riscv64-gnu",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "os": [
     "linux"
   ],
