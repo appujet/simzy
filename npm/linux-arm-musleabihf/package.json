@@ -1,0 +1,23 @@
+{
+  "name": "string-proximity-linux-arm-musleabihf",
+  "version": "0.0.3",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "main": "string-proximity.linux-arm-musleabihf.node",
+  "files": [
+    "string-proximity.linux-arm-musleabihf.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": "https://github.com/appujet/string-proximity"
+}
