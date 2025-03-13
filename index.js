@@ -116,7 +116,7 @@ switch (platform) {
         nativeBinding = require('string-proximity-darwin-universal')
       }
       break
-    } catch { }
+    } catch {}
     switch (arch) {
       case 'x64':
         localFileExisted = existsSync(join(__dirname, 'string-proximity.darwin-x64.node'))
@@ -246,35 +246,6 @@ switch (platform) {
               nativeBinding = require('./string-proximity.linux-arm-gnueabihf.node')
             } else {
               nativeBinding = require('string-proximity-linux-arm-gnueabihf')
-            }
-          } catch (e) {
-            loadError = e
-          }
-        }
-        break
-      case 'riscv64':
-        if (isMusl()) {
-          localFileExisted = existsSync(
-            join(__dirname, 'string-proximity.linux-riscv64-musl.node')
-          )
-          try {
-            if (localFileExisted) {
-              nativeBinding = require('./string-proximity.linux-riscv64-musl.node')
-            } else {
-              nativeBinding = require('string-proximity-linux-riscv64-musl')
-            }
-          } catch (e) {
-            loadError = e
-          }
-        } else {
-          localFileExisted = existsSync(
-            join(__dirname, 'string-proximity.linux-riscv64-gnu.node')
-          )
-          try {
-            if (localFileExisted) {
-              nativeBinding = require('./string-proximity.linux-riscv64-gnu.node')
-            } else {
-              nativeBinding = require('string-proximity-linux-riscv64-gnu')
             }
           } catch (e) {
             loadError = e

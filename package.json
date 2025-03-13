@@ -1,6 +1,6 @@
 {
   "name": "string-proximity",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
@@ -15,8 +15,7 @@
         "x86_64-unknown-linux-musl",
         "i686-pc-windows-msvc",
         "armv7-linux-androideabi",
-        "universal-apple-darwin",
-        "riscv64gc-unknown-linux-gnu"
+        "universal-apple-darwin"
       ]
     }
   },
